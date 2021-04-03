@@ -1,9 +1,18 @@
 import oyaml as yaml
 from flask import Flask
 from flask import render_template
+from flask import send_from_directory
+import os
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
+
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                          'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 
 @app.route('/')
 def index():
