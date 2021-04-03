@@ -62,9 +62,9 @@ def body_headbar(a, github=False):
                     # with a.li(klass='nav-item'):
                     #     with a.a(klass='nav-link', href='/#awards', **{'data-target': '#awards'}):
                     #         a.span(_t='Awards & Honors')
-                    with a.li(klass='nav-item'):
-                        with a.a(klass='nav-link', href='/#activities', **{'data-target': '#activities'}):
-                            a.span(_t='Activities')
+                    # with a.li(klass='nav-item'):
+                    #     with a.a(klass='nav-link', href='/#activities', **{'data-target': '#activities'}):
+                    #         a.span(_t='Activities')
 
 
 def body_profile(a, github=False):
