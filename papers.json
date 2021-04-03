@@ -1,0 +1,115 @@
+{
+  "paper_0": {
+    "title": "Formation Flight of Multiple UAVs via Onboard Sensor Information Sharing",
+    "authors": [
+      "Chulwoo Park",
+      "Namhoon Cho",
+      "Kyunghyun Lee",
+      "Youdan Kim"
+    ],
+    "venue": {
+      "publisher": "Sensors",
+      "year": 2015,
+      "special": null
+    },
+    "thumbnail": [
+      "static/papers/images/sensors2015formation.png",
+      "static/papers/images/sensors2015formation.gif"
+    ],
+    "resources": {
+      "paper": "https://www.mdpi.com/1424-8220/15/7/17397/pdf"
+    }
+  },
+  "paper_1": {
+    "title": "CNN-Based Simultaneous Dehazing and Depth Estimation,",
+    "authors": [
+      "Byeong-Uk Lee",
+      "Kyunghyun Lee",
+      "Jean Oh",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": "IEEE International Conference on Robotics and Automation",
+      "publisher_acr": "ICRA",
+      "year": 2020,
+      "special": null
+    },
+    "thumbnail": "static/papers/images/icra2020cnn.png",
+    "resources": {
+      "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9197358&tag=1"
+    }
+  },
+  "paper_2": {
+    "title": "An Efficient Asynchronous Method for Integrating Evolutionary and Gradient-based Policy Search",
+    "authors": [
+      "Kyunghyun Lee",
+      "Byeong-Uk Lee",
+      "Ukcheol Shin",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": "Conference on Neural Information Processing Systems",
+      "publisher_acr": "NeurIPS",
+      "year": 2020,
+      "special": {
+        "type": "Oral Presentation",
+        "comment": "Acceptance: 105/9454 ≈ 1.1%"
+      }
+    },
+    "thumbnail": "static/papers/images/nips2020anefficient.png",
+    "resources": {
+      "paper": "https://arxiv.org/abs/2012.05417",
+      "code": "https://github.com/KyunghyunLee/aes-rl"
+    }
+  },
+  "paper_3": {
+    "title": "Depth Completion using Plane-Residual Representation",
+    "authors": [
+      "Byeong-Uk Lee",
+      "Kyunghyun Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "publisher_acr": "CVPR",
+      "year": 2021
+    },
+    "thumbnail": "static/papers/images/cvpr2021depth.png",
+    "resources": {
+    }
+  },
+  "paper_4": {
+    "title": "Unsupervised Depth and Ego-motion Estimation for Monocular Thermal Video using Multi-spectral Consistency Loss",
+    "authors": [
+      "UkcheolShin",
+      "Kyunghyun Lee",
+      "Seokju Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": "Arxiv Preprint",
+      "year": 2021
+    },
+    "thumbnail": "static/papers/images/arxiv2021unsupervised.gif",
+    "resources": {
+      "paper": "https://arxiv.org/abs/2103.00760",
+      "code": "https://github.com/UkcheolShin/TsfmLearner",
+      "project": "https://sites.google.com/view/t-sfmlearner",
+      "youtube": "https://www.youtube.com/watch?v=qIBcOuLYr70&feature=youtu.be"
+    }
+  },
+  "paper_5": {
+    "title": "DRL-ISP: Multi-Objective Camera ISP with Deep Reinforcement Learning",
+    "authors": [
+      "UkcheolShin*",
+      "Kyunghyun Lee*",
+      "In So Kweon"
+    ],
+    "venue": null,
+    "thumbnail": "static/papers/images/iccv2021drlisp.png",
+    "resources": {
+      "paper": "#",
+      "project": "https://sites.google.com/view/drl-isp"
+    }
+  }
+}
