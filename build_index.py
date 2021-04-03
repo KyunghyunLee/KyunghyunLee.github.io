@@ -94,12 +94,10 @@ def body_research_interest(a, github=False):
     a.br()
     with a.p():
         a('I am a Ph.D. student advised by Professor')
-        a.a(href='http://rcv.kaist.ac.kr', _t='In So Kweon')
-        a(', at')
-        a.a(href='https://ee.kaist.ac.kr/', rel='noopener', target='_blank', _t='Electrical Engineering')
-        a(',')
-        a.a(href='https://kaist.ac.kr/', rel='noopener', target='_blank', _t='KAIST')
-        a('.')
+        a.a(href='http://rcv.kaist.ac.kr', _t='In So Kweon,')
+        a('at')
+        a.a(href='https://ee.kaist.ac.kr/', rel='noopener', target='_blank', _t='Electrical Engineering,')
+        a.a(href='https://kaist.ac.kr/', rel='noopener', target='_blank', _t='KAIST.')
 
     with a.p():
         a('My research interests lie in Machine Learning, Reinforcement Learning and Robotics.')
@@ -157,8 +155,8 @@ def body_experiences(a, github=False):
                 with a.ul():
                     with a.li():
                         with a.div(style='float:left'):
-                            a.b(_t='THe Robotics Institute, Carnegie Mellon University')
-                            a(', Pittsburgh PA, USA')
+                            a.b(_t='The Robotics Institute, Carnegie Mellon University,')
+                            a('Pittsburgh PA, USA')
                         a.div(style='float:right', _t='Jun 2019 - Aug 2019')
                         a.br()
                         a('Visiting Researcher')
@@ -168,8 +166,8 @@ def body_experiences(a, github=False):
                     with a.li():
                         with a.div(style='float:left'):
                             with a.b():
-                                a.a(href='https://www.uvify.com/', _t='UVify, Inc.', rel="noopener noreferrer nofollow")
-                            a(', Seoul, Korea')
+                                a.a(href='https://www.uvify.com/', _t='UVify, Inc.,', rel="noopener noreferrer nofollow")
+                            a('Seoul, Korea')
                         a.div(style='float:right', _t='Mar 2015 - Jul 2018')
                         a.br()
                         a('CPO')
