@@ -281,7 +281,13 @@ def body_publications(a, github=False):
 
 
 def body_academic(a, github=False):
-    pass
+    with a.div(klass='container'):
+        with a.div(klass='row'):
+            with a.div(klass='col-lg-12'):
+                a.h1(_t='Academic Activities')
+                a.h2(id='reviewer', _t='Reviewer')
+                with a.ul():
+                    a.li(_t='NeurIPS 2021')
 
 
 def body(a, github=False):
