@@ -318,6 +318,10 @@ def body(a, github=False):
         with a.section(klass='home-section wg-papers', id='papers', style='padding: 20px 0 20px 0;'):
             body_academic(a, github)
 
+        with a.a(href='https://hits.seeyoufarm.com'):
+            a.img(src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkyunghyunlee.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false')
+
+
 def main():
     flask_html = Airium()
     github_html = Airium()
