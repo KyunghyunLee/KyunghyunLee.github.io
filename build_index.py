@@ -288,6 +288,7 @@ def body_academic(a, github=False):
                 a.h2(id='reviewer', _t='Reviewer')
                 with a.ul():
                     a.li(_t='NeurIPS 2021')
+                    a.li(_t='ICLR 2022')
 
 
 def body(a, github=False):
