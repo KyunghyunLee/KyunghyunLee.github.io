@@ -289,6 +289,7 @@ def body_academic(a, github=False):
                 with a.ul():
                     a.li(_t='NeurIPS 2021')
                     a.li(_t='ICLR 2022')
+                    a.li(_t='ICML 2022')
 
 
 def body(a, github=False):
