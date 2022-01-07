@@ -223,7 +223,12 @@ def build_paper_tag_from_json(a, paper_json, github=False):
         with a.p(klass='venue'):
             if 'venue' in paper_json and paper_json['venue'] is not None:
                 venue = paper_json['venue']
-                a(venue['publisher'])
+                if not isinstance(venue['publisher'], list):
+                    publishers = [venue['publisher']]
+                else:
+                    publishers = venue['publisher']
+                for publisher1 in publishers:
+                    a(publisher1)
 
                 if 'publisher_acr' in venue:
                     a.b(f'({venue["publisher_acr"]}), ')

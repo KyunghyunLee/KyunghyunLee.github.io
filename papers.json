@@ -79,7 +79,7 @@
     }
   },
   "paper_4": {
-    "title": "Unsupervised Depth and Ego-motion Estimation for Monocular Thermal Video using Multi-spectral Consistency Loss",
+    "title": "Self-supervised Depth and Ego-motion Estimation for Monocular Thermal Video using Multi-spectral Consistency Loss",
     "authors": [
       "UkcheolShin",
       "Kyunghyun Lee",
@@ -87,15 +87,15 @@
       "In So Kweon"
     ],
     "venue": {
-      "publisher": "Arxiv Preprint",
-      "year": 2021
+      "publisher": ["IEEE Robotics and Automation Letters",
+        "IEEE International Conference on Robotics and Automation (ICRA)"],
+      "year": 2022
     },
     "thumbnail": "static/papers/images/arxiv2021unsupervised.gif",
     "resources": {
-      "paper": "https://arxiv.org/abs/2103.00760",
-      "code": "https://github.com/UkcheolShin/TsfmLearner",
-      "project": "https://sites.google.com/view/t-sfmlearner",
-      "youtube": "https://www.youtube.com/watch?v=qIBcOuLYr70&feature=youtu.be"
+      "paper": "https://ieeexplore.ieee.org/abstract/document/9662239",
+      "code": "https://github.com/UkcheolShin/ThermalSfMLearner-MS",
+      "project": "https://sites.google.com/view/t-sfmlearner"
     }
   },
   "paper_5": {
