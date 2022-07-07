@@ -220,31 +220,33 @@ def build_paper_tag_from_json(a, paper_json, github=False):
             if equal:
                 a(' (* Equal contribution)')
 
-        with a.p(klass='venue'):
-            if 'venue' in paper_json and paper_json['venue'] is not None:
-                venue = paper_json['venue']
-                if not isinstance(venue['publisher'], list):
-                    publishers = [venue['publisher']]
-                else:
-                    publishers = venue['publisher']
-                for publisher1 in publishers:
+        if 'venue' in paper_json and paper_json['venue'] is not None:
+            venue = paper_json['venue']
+            if not isinstance(venue['publisher'], list):
+                publishers = [venue['publisher']]
+            else:
+                publishers = venue['publisher']
+            for idx, publisher1 in enumerate(publishers):
+                with a.p(klass='venue'):
                     a(publisher1)
 
-                if 'publisher_acr' in venue:
-                    a.b(f'({venue["publisher_acr"]}), ')
+                    if 'publisher_acr' in venue:
+                        a.b(f'({venue["publisher_acr"]}), ')
+                    if idx == len(publishers) - 1:
+                        if 'special' in venue and venue['special'] is not None:
+                            a(str(venue['year']) + ', ')
+                            special = venue['special']
+                            a.span(style='font-weight:bolder;color:#BB2222', _t=special['type'])
+                            if 'comment' in special and special['comment'] is not None:
+                                a.span(style='font-weight:normal', _t='(' + special['comment'] + ')')
+                        else:
+                            a(venue['year'])
+                    else:
+                        a(venue['year'])
 
-                if 'special' in venue and venue['special'] is not None:
-                    a(str(venue['year']) + ', ')
-                    special = venue['special']
-                    a.span(style='font-weight:bolder;color:#BB2222', _t=special['type'])
-                    if 'comment' in special and special['comment'] is not None:
-                        a.span(style='font-weight:normal', _t='(' + special['comment'] + ')')
-                else:
-                    a(venue['year'])
-            else:
-                a('Under Review')
-
-            a.span(style='font-weight:normal')
+                    a.span(style='font-weight:normal')
+        else:
+            a('Under Review')
 
         with a.p(klass='resources'):
             resources = paper_json['resources']
@@ -291,10 +293,11 @@ def body_academic(a, github=False):
             with a.div(klass='col-lg-12'):
                 a.h1(_t='Academic Activities')
                 a.h2(id='reviewer', _t='Reviewer')
-                with a.ul():
-                    a.li(_t='NeurIPS 2021')
+                with a.ul(_t='NeurIPS 2021'):
+                    a.li(_t='NeurIPS 2021, 2022')
                     a.li(_t='ICLR 2022')
                     a.li(_t='ICML 2022')
+                    a.li(_t='IROS 2022')
 
 
 def body(a, github=False):

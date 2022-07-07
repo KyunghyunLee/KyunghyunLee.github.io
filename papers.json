@@ -89,6 +89,9 @@
     "venue": {
       "publisher": ["IEEE Robotics and Automation Letters",
         "IEEE International Conference on Robotics and Automation (ICRA)"],
+      "special": {
+        "type": "Oral Presentation"
+      },
       "year": 2022
     },
     "thumbnail": "static/papers/images/arxiv2021unsupervised.gif",
@@ -105,11 +108,42 @@
       "Kyunghyun Lee*",
       "In So Kweon"
     ],
-    "venue": null,
+    "venue": {
+      "publisher": [
+        "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+      ],
+      "year": 2022,
+      "special": {
+        "type": "Oral Presentation"
+      }
+    },
     "thumbnail": "static/papers/images/iccv2021drlisp.png",
     "resources": {
       "paper": "#",
       "project": "https://sites.google.com/view/drl-isp"
+    }
+  },
+  "paper_6": {
+    "title": "Maximizing Self-supervision from Thermal Image for Effective Self-supervised Learning of Depth and Ego-motion",
+    "authors": [
+      "UkcheolShin",
+      "Kyunghyun Lee",
+      "Byeong-Uk Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": [
+        "IEEE Robotics and Automation Letters (RA-L)",
+        "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+      ],
+      "year": 2022,
+      "special": {
+        "type": "Oral Presentation"
+      }
+    },
+    "resources": {
+      "paper": "https://arxiv.org/abs/2201.04387",
+      "project": "#"
     }
   }
 }
