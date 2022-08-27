@@ -87,7 +87,7 @@
       "In So Kweon"
     ],
     "venue": {
-      "publisher": ["IEEE Robotics and Automation Letters",
+      "publisher": ["IEEE Robotics and Automation Letters (RA-L)",
         "IEEE International Conference on Robotics and Automation (ICRA)"],
       "special": {
         "type": "Oral Presentation"
@@ -141,9 +141,33 @@
         "type": "Oral Presentation"
       }
     },
+    "thumbnail": "static/papers/images/2022_RAL_ThermalMonoDepth.gif",
+    "resources": {
+      "paper": "#",
+      "project": "#",
+      "code": "#"
+    }
+  },
+  "paper_7": {
+    "title": "Self-supervised Monocular Depth Estimation from Thermal Images via Adversarial Multi-spectral Adaptation",
+    "authors": [
+      "UkcheolShin",
+      "Kwanyong Park",
+      "Byeong-Uk Lee",
+      "Kyunghyun Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": [
+        "IEEE Winter Conference on Applications of Computer Vision (WACV)"
+      ],
+      "year": 2023
+    },
     "resources": {
       "paper": "https://arxiv.org/abs/2201.04387",
-      "project": "#"
+      "project": "https://sites.google.com/view/thermal-monodepth-project-page",
+      "code": "https://github.com/UkcheolShin/ThermalMonoDepth"
     }
+
   }
 }

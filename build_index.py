@@ -293,11 +293,12 @@ def body_academic(a, github=False):
             with a.div(klass='col-lg-12'):
                 a.h1(_t='Academic Activities')
                 a.h2(id='reviewer', _t='Reviewer')
-                with a.ul(_t='NeurIPS 2021'):
-                    a.li(_t='NeurIPS 2021, 2022')
-                    a.li(_t='ICLR 2022')
-                    a.li(_t='ICML 2022')
-                    a.li(_t='IROS 2022')
+                # with a.ul(_t='Conferences'):
+                a.li(_t='NeurIPS 2021-')
+                a.li(_t='ICLR 2022-')
+                a.li(_t='ICML 2022-')
+                a.li(_t='IROS 2022-')
+                a.li(_t='AAAI 2023-')
 
 
 def body(a, github=False):
