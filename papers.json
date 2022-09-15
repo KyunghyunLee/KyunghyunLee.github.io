@@ -76,6 +76,7 @@
     },
     "thumbnail": "static/papers/images/cvpr2021depth.png",
     "resources": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Depth_Completion_Using_Plane-Residual_Representation_CVPR_2021_paper.pdf"
     }
   },
   "paper_4": {
