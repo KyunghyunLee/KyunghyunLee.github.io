@@ -144,9 +144,9 @@
     },
     "thumbnail": "static/papers/images/2022_RAL_ThermalMonoDepth.gif",
     "resources": {
-      "paper": "#",
-      "project": "#",
-      "code": "#"
+      "paper": "https://arxiv.org/abs/2201.04387",
+      "project": "https://sites.google.com/view/thermal-monodepth-project-page",
+      "code": "https://github.com/UkcheolShin/ThermalMonoDepth"
     }
   },
   "paper_7": {
@@ -162,12 +162,16 @@
       "publisher": [
         "IEEE Winter Conference on Applications of Computer Vision (WACV)"
       ],
-      "year": 2023
+      "year": 2023,
+      "special": {
+        "type": "Best Student Paper Award"
+      }
     },
     "resources": {
-      "paper": "https://arxiv.org/abs/2201.04387",
-      "project": "https://sites.google.com/view/thermal-monodepth-project-page",
-      "code": "https://github.com/UkcheolShin/ThermalMonoDepth"
+      "paper": "#",
+      "project": "#",
+      "code": "#",
+      "poster": "https://drive.google.com/file/d/12o_jFgAMfxUAe46l7mqz8EOyct36SM9Q/view?usp=share_link"
     }
 
   }
