@@ -1,5 +1,5 @@
 {
-  "paper_0": {
+  "paper_000": {
     "title": "Formation Flight of Multiple UAVs via Onboard Sensor Information Sharing",
     "authors": [
       "Chulwoo Park",
@@ -20,7 +20,7 @@
       "paper": "https://www.mdpi.com/1424-8220/15/7/17397/pdf"
     }
   },
-  "paper_1": {
+  "paper_001": {
     "title": "CNN-Based Simultaneous Dehazing and Depth Estimation,",
     "authors": [
       "Byeong-Uk Lee",
@@ -39,7 +39,7 @@
       "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9197358&tag=1"
     }
   },
-  "paper_2": {
+  "paper_002": {
     "title": "An Efficient Asynchronous Method for Integrating Evolutionary and Gradient-based Policy Search",
     "authors": [
       "Kyunghyun Lee",
@@ -62,7 +62,7 @@
       "code": "https://github.com/KyunghyunLee/aes-rl"
     }
   },
-  "paper_3": {
+  "paper_003": {
     "title": "Depth Completion using Plane-Residual Representation",
     "authors": [
       "Byeong-Uk Lee",
@@ -79,7 +79,7 @@
       "paper": "https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Depth_Completion_Using_Plane-Residual_Representation_CVPR_2021_paper.pdf"
     }
   },
-  "paper_4": {
+  "paper_004": {
     "title": "Self-supervised Depth and Ego-motion Estimation for Monocular Thermal Video using Multi-spectral Consistency Loss",
     "authors": [
       "UkcheolShin",
@@ -102,7 +102,7 @@
       "project": "https://sites.google.com/view/t-sfmlearner"
     }
   },
-  "paper_5": {
+  "paper_005": {
     "title": "DRL-ISP: Multi-Objective Camera ISP with Deep Reinforcement Learning",
     "authors": [
       "UkcheolShin*",
@@ -124,7 +124,7 @@
       "project": "https://sites.google.com/view/drl-isp"
     }
   },
-  "paper_6": {
+  "paper_006": {
     "title": "Maximizing Self-supervision from Thermal Image for Effective Self-supervised Learning of Depth and Ego-motion",
     "authors": [
       "UkcheolShin",
@@ -149,7 +149,7 @@
       "code": "https://github.com/UkcheolShin/ThermalMonoDepth"
     }
   },
-  "paper_7": {
+  "paper_007": {
     "title": "Self-supervised Monocular Depth Estimation from Thermal Images via Adversarial Multi-spectral Adaptation",
     "authors": [
       "UkcheolShin",
@@ -167,12 +167,76 @@
         "type": "Best Student Paper Award"
       }
     },
+    "thumbnail": "static/papers/images/2023_wacv23_teaser.png",
+    "resources": {
+      "paper": "https://openaccess.thecvf.com/content/WACV2023/html/Shin_Self-Supervised_Monocular_Depth_Estimation_From_Thermal_Images_via_Adversarial_Multi-Spectral_WACV_2023_paper.html",
+      "project": "#",
+      "code": "https://github.com/UkcheolShin/SelfDepth4Thermal",
+      "poster": "https://drive.google.com/file/d/12o_jFgAMfxUAe46l7mqz8EOyct36SM9Q/view?usp=share_link",
+      "award": "https://drive.google.com/file/d/11sdV9xkZ3Ln5VBch5G8AF5bgIgp_B8xp/view?pli=1"
+    }
+
+  },
+  "paper_008": {
+    "title": "Complementary Random Masking for RGB-T Semantic Segmentation",
+    "authors": [
+      "UkcheolShin",
+      "Kyunghyun Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": [
+        "Under review"
+      ],
+      "year": 2023
+    },
+    "thumbnail": "static/papers/images/2023_CRM_RGBTSemSeg.png",
+    "resources": {
+      "paper": "#",
+      "project": "https://sites.google.com/view/crm4rgbtseg/",
+      "code": "https://github.com/UkcheolShin/CRM_RGBTSeg"
+    }
+  },
+  "paper_009": {
+    "title": "Autonomous Camera Exposure and Gain Control using Reinforcement Learning",
+    "authors": [
+      "Kyunghyun Lee",
+      "UkcheolShin",
+      "Byeong-Uk Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": [
+        "Under review"
+      ],
+      "year": 2023
+    },
+    "thumbnail": "static/papers/images/iccv2023drlae.JPG",
     "resources": {
       "paper": "#",
       "project": "#",
-      "code": "#",
-      "poster": "https://drive.google.com/file/d/12o_jFgAMfxUAe46l7mqz8EOyct36SM9Q/view?usp=share_link"
+      "code": "#"
     }
-
+  },
+  "paper_010": {
+    "title": "Scalable Evolutionary Reinforcement Learning with Asynchronous Critic Update and Distributed Local Replay",
+    "authors": [
+      "Kyunghyun Lee",
+      "UkcheolShin",
+      "Byeong-Uk Lee",
+      "In So Kweon"
+    ],
+    "venue": {
+      "publisher": [
+        "Under review"
+      ],
+      "year": 2023
+    },
+    "thumbnail": "static/papers/images/tec2023scalable.JPG",
+    "resources": {
+      "paper": "#",
+      "project": "#",
+      "code": "#"
+    }
   }
 }
