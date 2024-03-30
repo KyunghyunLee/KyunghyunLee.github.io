@@ -9,7 +9,7 @@ def head(a, github=False):
         a.meta(content='IE=edge', **{'http-equiv': 'X-UA-Compatible'})
         a.meta(content='Source Themes Academic 4.7.0', name='generator')
         a.meta(content='Kyunghyun Lee', name='author')
-        a.meta(content='Ph.D Candidate', name='description')
+        a.meta(content='Ph.D', name='description')
         a.link(href='/', hreflang='en-us', rel='alternate')
         a.meta(content='#2962ff', name='theme-color')
         a.link(crossorigin='anonymous', href='https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css', integrity='sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=', rel='stylesheet')
@@ -72,7 +72,8 @@ def body_profile(a, github=False):
         a.img(alt='Avatar', klass='avatar avatar-circle', src='static/authors/admin/profile.jpg')
         with a.div(klass='portrait-title'):
             a.h2(_t='Kyunghyun Lee')
-            a.h3(_t='Ph.D Candidate')
+            a.h3(_t='LG AI Research')
+            a.h3(_t='Ph.D')
             with a.h3():
                 with a.a(href='https://ee.kaist.ac.kr/', rel='noopener', target='_blank'):
                     a.span(_t='Robotics Program, Electrical Engineering, KAIST')
@@ -93,7 +94,8 @@ def body_profile(a, github=False):
 def body_research_interest(a, github=False):
     a.br()
     with a.p():
-        a('I am a Ph.D. student advised by Professor')
+        a('I am a AI Scientist in LG AI Research')
+        a('I received Ph.D. in 2023 advised by Professor')
         a.a(href='http://rcv.kaist.ac.kr', _t='In So Kweon,')
         a('at')
         a.a(href='https://ee.kaist.ac.kr/', rel='noopener', target='_blank', _t='Electrical Engineering,')
@@ -132,6 +134,15 @@ def body_education(a, github=False):
         with a.li():
             a.i(klass='fa-li fas fa-graduation-cap')
             with a.div(klass='description'):
+                a.p(klass='course', _t='Ph.D. in Robotics Program, 2023')
+                a.p(klass='institution', _t='Korea Advanced Institute of Science and Technology (KAIST), Korea')
+                a.p(klass='explanation',
+                    _t='Thesis: "Practical Evolutionary Reinforcement Learning with Enhanced Sample Efficiency')
+                a.p(klass='explanation', _t='Advisor: In So Kweon')
+
+        with a.li():
+            a.i(klass='fa-li fas fa-graduation-cap')
+            with a.div(klass='description'):
                 a.p(klass='course', _t='MS in Aerospace Engineering, 2015')
                 a.p(klass='institution', _t='Seoul National University (SNU), Korea')
                 a.p(klass='explanation',
@@ -153,6 +164,16 @@ def body_experiences(a, github=False):
                 a.h1(_t='Experiences')
 
                 with a.ul():
+                    with a.li():
+                        with a.div(style='float:left'):
+                            a.b(_t='LG AI Research')
+                            a('Seoul, Korea')
+                        a.div(style='float:right', _t='Aug 2023 - Present')
+                        a.br()
+                        a('AI Scientist')
+                        a.br()
+                        a('Data Intelligence Lab')
+
                     with a.li():
                         with a.div(style='float:left'):
                             a.b(_t='The Robotics Institute, Carnegie Mellon University,')

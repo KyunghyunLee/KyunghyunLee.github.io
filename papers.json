@@ -186,13 +186,16 @@
     ],
     "venue": {
       "publisher": [
-        "Under review"
+        "IEEE International Conference on Robotics and Automation (ICRA)"
       ],
-      "year": 2023
+      "year": 2024,
+      "special": {
+        "type": "Oral Presentation"
+      }
     },
     "thumbnail": "static/papers/images/2023_CRM_RGBTSemSeg.png",
     "resources": {
-      "paper": "#",
+      "paper": "https://arxiv.org/abs/2303.17386",
       "project": "https://sites.google.com/view/crm4rgbtseg/",
       "code": "https://github.com/UkcheolShin/CRM_RGBTSeg"
     }
@@ -200,10 +203,9 @@
   "paper_009": {
     "title": "Autonomous Camera Exposure and Gain Control using Reinforcement Learning",
     "authors": [
-      "Kyunghyun Lee",
-      "UkcheolShin",
-      "Byeong-Uk Lee",
-      "In So Kweon"
+      "Kyunghyun Lee*",
+      "UkcheolShin*",
+      "Byeong-Uk Lee"
     ],
     "venue": {
       "publisher": [
@@ -211,7 +213,7 @@
       ],
       "year": 2023
     },
-    "thumbnail": "static/papers/images/iccv2023drlae.JPG",
+    "thumbnail": "static/papers/images/2024_CVPR_DRL_AE.gif",
     "resources": {
       "paper": "#",
       "project": "#",
@@ -230,7 +232,7 @@
       "publisher": [
         "Under review"
       ],
-      "year": 2023
+      "year": 2024
     },
     "thumbnail": "static/papers/images/tec2023scalable.JPG",
     "resources": {
