@@ -72,8 +72,8 @@ def body_profile(a, github=False):
         a.img(alt='Avatar', klass='avatar avatar-circle', src='static/authors/admin/profile.jpg')
         with a.div(klass='portrait-title'):
             a.h2(_t='Kyunghyun Lee')
-            a.h3(_t='LG AI Research')
-            a.h3(_t='Ph.D')
+            a.h3(_t='Gachon University')
+            a.h3(_t='Assistant Professor')
             with a.h3():
                 with a.a(href='https://ee.kaist.ac.kr/', rel='noopener', target='_blank'):
                     a.span(_t='Robotics Program, Electrical Engineering, KAIST')
@@ -94,15 +94,16 @@ def body_profile(a, github=False):
 def body_research_interest(a, github=False):
     a.br()
     with a.p():
-        a('I am a AI Scientist in LG AI Research')
-        a('I received Ph.D. in 2023 advised by Professor')
+        a('I am an assistant professor in the Computer Science department since 2025.')
+        a('I worked as an AI Scientist in LG AI Research.')
+        a('I received a Ph.D. in 2023 advised by Professor')
         a.a(href='http://rcv.kaist.ac.kr', _t='In So Kweon,')
         a('at')
         a.a(href='https://ee.kaist.ac.kr/', rel='noopener', target='_blank', _t='Electrical Engineering,')
         a.a(href='https://kaist.ac.kr/', rel='noopener', target='_blank', _t='KAIST.')
 
     with a.p():
-        a('My research interests lie in Machine Learning, Reinforcement Learning and Robotics.')
+        a('My research interests lie in Machine Learning, Reinforcement Learning, and Robotics.')
 
     with a.p():
         a('My research topics include\n')
@@ -120,12 +121,12 @@ def body_contact(a, github=False):
         with a.li():
             a.i(klass='fa-li fas fa-envelope')
             with a.div(klass='description'):
-                a.p(klass='course', _t='kyunghyun.lee [at] kaist.ac.kr')
+                a.p(klass='course', _t='kyunghyunlee [at] gachon.ac.kr')
 
         with a.li():
             a.i(klass='fa-li fas fa-map-marker')
             with a.div(klass='description'):
-                a.p(klass='course', _t='Bldg N1, Rm 211, 291 Daehak-ro, Yuseong-gu, Daejeon, Korea, 34141')
+                a.p(klass='course', _t='Bldg AI, Rm 316, 1342, Seongnam-daero, Sujeong-gu, Seongnam-si, Gyeonggi-do, Korea, 13120')
 
 
 def body_education(a, github=False):
@@ -166,9 +167,18 @@ def body_experiences(a, github=False):
                 with a.ul():
                     with a.li():
                         with a.div(style='float:left'):
+                            a.b(_t='Gachon University')
+                            a('Gyeonggi-do, Korea')
+                        a.div(style='float:right', _t='Mar 2025 - Present')
+                        a.br()
+                        a('Assistant Professor')
+                        a.br()
+                        a('Computer Science Dept')
+                    with a.li():
+                        with a.div(style='float:left'):
                             a.b(_t='LG AI Research')
                             a('Seoul, Korea')
-                        a.div(style='float:right', _t='Aug 2023 - Present')
+                        a.div(style='float:right', _t='Aug 2023 - Feb 2025')
                         a.br()
                         a('AI Scientist')
                         a.br()

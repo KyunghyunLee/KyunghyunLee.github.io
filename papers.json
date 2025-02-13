@@ -201,7 +201,7 @@
     }
   },
   "paper_009": {
-    "title": "Autonomous Camera Exposure and Gain Control using Reinforcement Learning",
+    "title": "Learning to Control Camera Exposure via Reinforcement Learning",
     "authors": [
       "Kyunghyun Lee*",
       "UkcheolShin*",
@@ -209,18 +209,40 @@
     ],
     "venue": {
       "publisher": [
-        "Under review"
+        "Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR)"
       ],
-      "year": 2023
+      "year": 2024
     },
     "thumbnail": "static/papers/images/2024_CVPR_DRL_AE.gif",
     "resources": {
-      "paper": "#",
-      "project": "#",
+      "paper": "https://arxiv.org/abs/2404.01636",
+      "project": "https://sites.google.com/view/drl-ae",
       "code": "#"
     }
   },
   "paper_010": {
+    "title": "Bridging Spectral-wise and Multi-spectral Depth Estimation via Geometry-guided Contrastive Learning",
+    "authors": [
+      "UkcheolShin",
+      "Kyunghyun Lee",
+      "Jean Oh"
+    ],
+    "venue": {
+      "publisher": [
+        "IEEE International Conference on Robotics and Automation (ICRA)"
+      ],
+      "year": 2025,
+      "special": {
+        "type": "Oral Presentation"
+      }
+    },
+    "thumbnail": "static/papers/images/2024_BridgeDepth.png",
+    "resources": {
+      "paper": "#",
+      "code": "#"
+    }
+  },
+    "paper_011": {
     "title": "Scalable Evolutionary Reinforcement Learning with Asynchronous Critic Update and Distributed Local Replay",
     "authors": [
       "Kyunghyun Lee",
@@ -232,13 +254,13 @@
       "publisher": [
         "Under review"
       ],
-      "year": 2024
+      "year": 2025
     },
     "thumbnail": "static/papers/images/tec2023scalable.JPG",
     "resources": {
       "paper": "#",
       "project": "#",
-      "code": "#"
+  "code": "#"
     }
   }
 }
